@@ -1,44 +1,30 @@
-<style>
-.hero-banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 50px;
-  background-color: #e8f5fe;
-  color: #333;
-}
-.hero-banner h1 {
-  font-size: 3rem;
-  margin: 10px 0;
-}
-.hero-banner p {
-  font-size: 1.5rem;
-  margin: 10px 0;
-}
-.cta-button {
-  padding: 10px 20px;
-  background-color: #1976d2;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-.cta-button:hover {
-  background-color: #1565c0;
-}
-</style>
 
-
-<!-- Hero Banner Component -->
-<div class="hero-banner">
-  <h1>Welcome to My Angular Portfolio</h1>
-  <p>Building modern and scalable web applications</p>
-  <a href="https://github.com/yourusername" class="cta-button">Explore My Work</a>
-</div>
-
-
+<div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080](https://www.keycdn.com/img/support/full-stack-development.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+  ">
+    <h1 style="font-size: 3rem; margin-bottom: 10px;">Welcome to My Portfolio</h1>
+    <p style="font-size: 1.5rem; margin-bottom: 20px;">Creating modern and scalable web applications</p>
+    <a href="#work" style="
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #1976d2;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    ">Explore My Work</a>
+  </div>
 
 <h1 align="center">Hi 👋, I'm Gurmeet Kumar</h1>
 <h3 align="center">A Passionate MEAN Stack Developer from India</h3>
